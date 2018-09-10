@@ -10,7 +10,7 @@ script:
   - docker run ppanan/docker-react npm run test -- --coverage
 
 deploy:
-  provider: elasticbeanstall
+  provider: elasticbeanstalk
   region: "ap-northeast-1"
   app: "docker-react"
   evn: "DockerReact-en"
